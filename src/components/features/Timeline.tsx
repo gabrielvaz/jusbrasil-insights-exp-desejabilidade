@@ -24,8 +24,7 @@ export function Timeline() {
                     {timelineEvents.map((event) => (
                         <div key={event.id} className="relative flex items-center justify-between group cursor-pointer pl-8">
                             {/* Dot */}
-                            <div className={`absolute left-0 w-3 h-3 rounded-full border-2 bg-white z-10 transition-colors ${event.current ? 'border-[#00897b]' : 'border-[#00897b] group-hover:bg-[#00897b]/10'
-                                }`} />
+                            <div className="w-2.5 h-2.5 rounded-full bg-jusbrasil-green ring-4 ring-white shadow-sm z-10"></div>
 
                             <div className="flex flex-col">
                                 <span className={`text-sm font-bold ${event.current ? 'text-gray-900' : 'text-gray-900'}`}>

@@ -6,9 +6,9 @@ export function DetailsBox() {
             <div className="space-y-6">
                 <div>
                     <h3 className="text-sm font-bold text-gray-900 mb-1">Processo</h3>
-                    <a href="#" className="text-[#00897b] hover:underline text-sm font-medium">
+                    <button className="w-full py-2 px-4 bg-jusbrasil-green text-white font-medium rounded hover:bg-opacity-90 transition-colors">
                         ROT 0000921-63.2020.5.09.0007
-                    </a>
+                    </button>
                 </div>
 
                 <div>

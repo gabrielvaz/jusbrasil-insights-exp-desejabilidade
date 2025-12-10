@@ -26,7 +26,7 @@ export function ContentBody() {
             <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Informações relacionadas</h3>
                 <div className="bg-gray-50 border border-gray-100 p-4 rounded-lg">
-                    <a href="#" className="text-[#00897b] font-bold hover:underline mb-2 block">
+                    <a href="#" className="font-bold text-jusbrasil-green hover:underline mb-2 block">
                         Tribunal Regional do Trabalho da 12ª Região TRT-12 - RECURSO ORDINARIO TRABALHISTA: ROT 0000920-10.2021.5.12.0056
                     </a>
                     <p className="text-xs text-gray-500 mb-2">Jurisprudência • Acórdão • Data de publicação: 27/01/2023</p>

@@ -19,7 +19,7 @@ export function Tabs() {
                     className={cn(
                         "pb-3 text-sm font-medium transition-all relative",
                         activeTab === tab.id
-                            ? "text-[#00897b] font-bold"
+                            ? "data-[state=active]:text-jusbrasil-green data-[state=active]:border-jusbrasil-green hover:text-gray-700"
                             : "text-gray-600 hover:text-gray-900"
                     )}
                 >

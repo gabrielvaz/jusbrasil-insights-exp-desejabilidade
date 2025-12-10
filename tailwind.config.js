@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         jusbrasil: {
-          green: '#2e8b57', // Placeholder, will refine
+          green: '#007A5F', // Updated primary color
           // Add other specific colors later
         }
       }

@@ -1,10 +1,11 @@
-import { Quote, Copy, Bookmark, MoreVertical } from 'lucide-react';
+import { Copy, Bookmark, MoreVertical } from 'lucide-react';
+import { Plus } from 'lucide-react'; // Added Plus import
 
 export function JurisprudenceHeader() {
     return (
         <div className="flex flex-col gap-4">
             <div className="flex gap-2">
-                <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-medium">2º grau</span>
+                <span className="text-[10px] font-bold text-jusbrasil-green bg-green-50 px-2 py-0.5 rounded">2º grau</span>
             </div>
 
             <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
@@ -12,9 +13,9 @@ export function JurisprudenceHeader() {
             </h1>
 
             <div className="flex items-center justify-between mt-2">
-                <button className="flex items-center gap-2 bg-[#00897b] hover:bg-[#00796b] text-white px-4 py-2 rounded-lg font-medium text-sm transition-colors shadow-sm">
-                    <Quote className="w-4 h-4" />
-                    Ementa para citação
+                <button className="flex items-center gap-1.5 px-3 py-1.5 bg-jusbrasil-green text-white text-xs font-medium rounded hover:bg-opacity-90 transition-colors">
+                    <Plus className="w-3.5 h-3.5" />
+                    Seguir
                 </button>
 
                 <div className="flex items-center gap-2 text-gray-500">
